@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar-brand{
+  font-family: sans-serif;
+}
+
+#navdiv{
+  background-color: #e00909;
+  /* background-color: transparent; */
+  font-size: 1.3rem;
+}
+
+#carousel{
+ max-height: 550px; 
+}
+
+.h-b-N{
+  position: relative;
+  /* color: #e00909; */
+  color: white;
+  bottom: 190px;
+}
+.h-b-p{
+  position: relative;
+  /* color: #e00909; */
+  color: white;
+  bottom: 180px;
+  font-size: 20px;
+}
+
+.card-div{
+  height: fit-content;
+  margin: 10px;
+}
+
+.drop{
+  background-color: white;
+  border: 2px solid #e00909;
+}
+
+#logout{
+  color: red;
+}
