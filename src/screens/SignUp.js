@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 export default function SignUp() {
+  const navigate = useNavigate()
   const [credentials, setcredentials] = useState({
     name: "",
     email: "",
@@ -28,7 +29,13 @@ export default function SignUp() {
 
     if (!json.success) {
       alert("Enter valid credentials");
+      return
     }
+
+    localStorage.setItem("userEmail", credentials.email);
+      localStorage.setItem("authToken", json.authToken);
+      console.log(localStorage.getItem("authToken"))
+      navigate("/");
   };
 
   const onChange = (event) => {

@@ -68,7 +68,7 @@ export default function Home() {
               <img
                 src="https://source.unsplash.com/random/?burger"
                 className="d-block w-100"
-                style={{ filter: "brightness(51%)", height:"550px", objectFit: "fill" }}
+                style={{ filter: "brightness(55%)", height:"550px", objectFit: "fill" }}
                 alt="..."
               />
             </div>
@@ -76,7 +76,7 @@ export default function Home() {
               <img
                 src="https://source.unsplash.com/random/?pizza"
                 className="d-block w-100"
-                style={{ filter: "brightness(51%)", height:"550px", objectFit: "fill" }}
+                style={{ filter: "brightness(55%)", height:"550px", objectFit: "fill" }}
                 alt="..."
               />
             </div>
@@ -84,7 +84,7 @@ export default function Home() {
               <img
                 src="https://source.unsplash.com/random/?biryani"
                 className="d-block w-100"
-                style={{ filter: "brightness(51%)", height:"550px", objectFit: "fill" }}
+                style={{ filter: "brightness(55%)", height:"550px", objectFit: "fill" }}
                 alt="..."
               />
             </div>
@@ -92,7 +92,7 @@ export default function Home() {
               <img
                 src="https://source.unsplash.com/random/?steak"
                 className="d-block w-100"
-                style={{ filter: "brightness(51%)", height:"550px", objectFit: "fill" }}
+                style={{ filter: "brightness(5%)", height:"550px", objectFit: "fill" }}
                 alt="..."
               />
             </div>
@@ -100,7 +100,7 @@ export default function Home() {
               <img
                 src="https://source.unsplash.com/random/?curry"
                 className="d-block w-100"
-                style={{ filter: "brightness(51%)", height:"550px", objectFit: "fill" }}
+                style={{ filter: "brightness(55%)", height:"550px", objectFit: "fill" }}
                 alt="..."
               />
             </div>
@@ -108,7 +108,7 @@ export default function Home() {
               <img
                 src="https://source.unsplash.com/random/?pastry cake"
                 className="d-block w-100"
-                style={{ filter: "brightness(51%)", height:"550px", objectFit: "fill" }}
+                style={{ filter: "brightness(55%)", height:"550px", objectFit: "fill" }}
                 alt="..."
               />
             </div>

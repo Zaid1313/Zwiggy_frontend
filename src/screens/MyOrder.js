@@ -98,7 +98,7 @@ export default function MyOrder() {
 
                 </div>
 
-    <div>
+    <div style={{ position: "relative", top: "35vw"}}>
         <Footer/>
     </div>
     </>
